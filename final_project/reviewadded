@@ -1,0 +1,2 @@
+curl -s -X PUT 'localhost:5000/customer/auth/review/1?review=Great%20classic' -b cookies.txt
+{"message":"Review for the book with ISBN 1 added successfully","reviews":{"aliburak":"Great classic"}}
