@@ -1,5 +1,8 @@
-curl -s https://api.github.com/repos/lckt0/expressBookReviews | grep -A 3 "\"parent\""
+curl -s https://api.github.com/repos/lckt0/expressBookReviews | grep -A 6 "\"parent\""
   "parent": {
     "id": 533628036,
     "node_id": "R_kgDOH86EhA",
     "name": "expressBookReviews",
+    "full_name": "ibm-developer-skills-network/expressBookReviews",
+    "private": false,
+    "owner": {
